@@ -20,6 +20,12 @@ Este repositorio contiene la entrega final del proyecto para la gestión de rese
 cd backend
 npm install
 npm run dev
+
+
+- Se debe crear el archivo .env en la carpeta raiz del backend manualmente para hacer la cconexion con mongo db. Ejemplo de fragmento de codigo que debe ir:
+(PORT=3000
+MONGODB_URI=mongodb://localhost:27017/restaurantesDB
+JWT_SECRET=mi_super_clave_secreta_super_segura_123)
 \`\`\`
 
 ### 2. Frontend
